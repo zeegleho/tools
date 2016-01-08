@@ -1,0 +1,6 @@
+
+if (`mount | grep "google-drive-ocamlfuse" ` =='' ) then
+google-drive-ocamlfuse ~/google
+endif
+
+setenv EDITOR vim
