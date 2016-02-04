@@ -331,6 +331,7 @@ let g:miniBufExplMapCTabSwitchBufs=1
 let g:miniBufExplMapWindowNavVim = 1
 "ctrl + <up down left right arrow> to move the cursor
 let g:miniBufExplMapWindowNavArrows = 1
+let g:miniBufExplSplitBelow=0  " Put new window above
 
 "for taglist.vim config
 "http://www.vim.org/scripts/script.php?script_id=273
