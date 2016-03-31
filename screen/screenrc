@@ -1,0 +1,43 @@
+setenv LC_CTYPE en_US.UTF-8
+
+defutf8 on
+
+
+
+termcapinfo xterm 'hs:ts=\E]2;:fs=\007:ds=\E]2;screen\007'
+
+
+
+# use Ctrl-Z instead of Ctrl-a
+
+# escape ^Zz
+
+
+
+# no welcome msg 
+
+startup_message off
+
+
+
+# screen buffer with 1024 lines
+
+defscrollback 10240
+
+
+
+# show windows lsit, host and time  
+
+hardstatus on
+
+hardstatus alwayslastline
+
+#caption always "%{= kw}%-w%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+w %=%d %M %0c %{g}%H%{-}"  
+
+hardstatus string "%{.bW}%-w%{= kG}%n %t%{-}%+w %=%{..G} %H %{..Y} %Y/%m/%d %c:%s "
+
+
+
+# close warning 
+
+# vbell off 
