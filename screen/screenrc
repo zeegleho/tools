@@ -34,7 +34,7 @@ hardstatus alwayslastline
 
 #caption always "%{= kw}%-w%{= kG}%{+b}[%n %t]%{-b}%{= kw}%+w %=%d %M %0c %{g}%H%{-}"  
 
-hardstatus string "%{.bW}%-w%{= kG}%n %t%{-}%+w %=%{..G} %H %{..Y} %Y/%m/%d %c:%s "
+hardstatus string "%{.cY}%-w%{= kG}%n %t%{-}%+w %=%{..Y} %H %{..Y} %Y/%m/%d %c:%s "
 
 
 
